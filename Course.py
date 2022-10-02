@@ -37,7 +37,7 @@ def convert_currency_xe(src, dst, cost):  # функция конвертер в
     return get_digits(exchange_rate_html.text)
 
 
-bot = telebot.TeleBot('5723544785:AAGcG2-Fui41fp1Sl0E1hzrZGh4VEzZnUdE')  # создали бота
+bot = telebot.TeleBot('Token')  # создали бота
 
 file = 'склад.xlsx'  # файл с данными по складу
 
